@@ -1,0 +1,278 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+/*给图标加一个圆背景*/
+/*.mai-icon{
+    background: rgb(64, 210, 177);
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}*/
+
+/*导航下边的阴影*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+/*LOGO*/
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #40D2B1;
+    height: 70px;
+    line-height: 35px;
+}
+/*导航标签*/
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.nav-li:hover{
+    background-color: #eeeeee;
+}
+/*bootstrap导航条缩小时位置*/
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+/*个人介绍*/
+#home{
+    margin-top: 70px;
+
+    background: url("../images/home-bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+/*给图片加一层遮罩*/
+.lvjing{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+.main-left{
+    text-align: center;
+    font-size: 14px;
+}
+.main-left a{
+    color: #fff;
+}
+.main-right{
+    font-size: 14px;
+    text-align: left;
+}
+/*专业技能*/
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+/*鼠标放进去时的*/
+#bbs .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+    color: #212121;
+    text-decoration: none;
+}
+#bbs img{
+    margin: 0 auto;
+}
+#bbs h3{
+    font-weight: bold;
+}
+#bbs .container a{
+    display: inline-block;
+    margin: 20px 0;
+}
+/*项目一 + 项目二 + 项目三 + 项目四*/
+#html5,#zhiwen{
+    background: #f8f8f8;
+}
+#html5 , #bootstrap, #zhiwen, #nanhai{
+    padding: 80px 0;
+}
+#html5 h2 , #bootstrap h2, #zhiwen h2, #nanhai h2{
+    font-weight: bold;
+}
+#html5 p  , #bootstrap p #zhiwen p , #nanhai p{
+    line-height: 25px;
+}
+
+/*荣誉证书*/
+#course{
+    background: #f8f8f8;
+    padding: 80px 0;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+#course .col-md-3{
+    margin-bottom: 20px;
+}
+.course {
+    background: #ffffff;
+}
+#course .btn{
+    background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+    background: #40D2B1;
+    color: #fff;
+}
+#html5:hover{
+    background: rgba(0,0,0,0.1);
+}
+#bootstrap:hover{
+    background: rgba(0,0,0,0.1);
+}
+#zhiwen:hover{
+    background: rgba(0,0,0,0.1);
+}
+#nanhai:hover{
+    background: rgba(0,0,0,0.1);
+}
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  transition: .1s transform;
+  transform: translateZ(0);
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.5, 1.5);
+  transition: .3s transform;
+}
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/*工作经验*/
+#app{
+    padding: 80px 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#app .btn{
+    margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+    background: rgb(44, 142, 120);
+}
+#app #text:hover{
+    background: #fff;
+    box-shadow: 1px 1px 4px #666;
+    border: none;
+}
+#app h2{
+    text-align: center;
+}
+#text{
+    border: 1px #333 solid;
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    padding-top:50px;
+    margin: 0 auto; 
+}
+/*联系我*/
+#contact{
+    background: url("../images/home-bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+#contact h2{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    background: #40D2B1;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+    background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
+
+
+
+
